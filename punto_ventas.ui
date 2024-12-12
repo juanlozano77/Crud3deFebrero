@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>1026</width>
+    <height>698</height>
    </rect>
   </property>
   <property name="palette">
@@ -847,10 +847,10 @@
    <widget class="QTabWidget" name="menu">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>10</y>
+      <x>110</x>
+      <y>30</y>
       <width>781</width>
-      <height>541</height>
+      <height>581</height>
      </rect>
     </property>
     <property name="palette">
@@ -1278,7 +1278,7 @@
      <bool>true</bool>
     </property>
     <property name="currentIndex">
-     <number>5</number>
+     <number>6</number>
     </property>
     <widget class="QWidget" name="clientes">
      <property name="enabled">
@@ -1289,7 +1289,7 @@
      </property>
      <attribute name="icon">
       <iconset>
-       <normaloff>//server/resguardo/Juan Lozano/virtualBox/PyQT-CRUD-App-master/PyQT-CRUD-App-master/pics/add_user.png</normaloff>//server/resguardo/Juan Lozano/virtualBox/PyQT-CRUD-App-master/PyQT-CRUD-App-master/pics/add_user.png</iconset>
+       <normaloff>imagenes/add_user.png</normaloff>imagenes/add_user.png</iconset>
      </attribute>
      <attribute name="title">
       <string>Clientes</string>
@@ -1937,7 +1937,7 @@
     <widget class="QWidget" name="tab_2">
      <attribute name="icon">
       <iconset>
-       <normaloff>//server/resguardo/Juan Lozano/virtualBox/inventario-disponible.png</normaloff>//server/resguardo/Juan Lozano/virtualBox/inventario-disponible.png</iconset>
+       <normaloff>imagenes/inventario-disponible.png</normaloff>imagenes/inventario-disponible.png</iconset>
      </attribute>
      <attribute name="title">
       <string>Stock</string>
@@ -2099,7 +2099,7 @@
     <widget class="QWidget" name="tab">
      <attribute name="icon">
       <iconset>
-       <normaloff>//server/resguardo/Juan Lozano/virtualBox/factura.png</normaloff>//server/resguardo/Juan Lozano/virtualBox/factura.png</iconset>
+       <normaloff>imagenes/factura.png</normaloff>imagenes/factura.png</iconset>
      </attribute>
      <attribute name="title">
       <string>Facturacion</string>
@@ -2107,10 +2107,10 @@
      <widget class="QTableView" name="tablaFactura">
       <property name="geometry">
        <rect>
-        <x>280</x>
-        <y>60</y>
-        <width>256</width>
-        <height>192</height>
+        <x>260</x>
+        <y>30</y>
+        <width>431</width>
+        <height>231</height>
        </rect>
       </property>
       <property name="palette">
@@ -2644,8 +2644,8 @@
      <widget class="QPushButton" name="pushAgregaItem">
       <property name="geometry">
        <rect>
-        <x>380</x>
-        <y>320</y>
+        <x>480</x>
+        <y>340</y>
         <width>75</width>
         <height>23</height>
        </rect>
@@ -2657,8 +2657,8 @@
      <widget class="QPushButton" name="pushFacturar">
       <property name="geometry">
        <rect>
-        <x>500</x>
-        <y>320</y>
+        <x>610</x>
+        <y>340</y>
         <width>75</width>
         <height>23</height>
        </rect>
@@ -2670,8 +2670,8 @@
      <widget class="QPushButton" name="pushBorrarItem">
       <property name="geometry">
        <rect>
-        <x>260</x>
-        <y>320</y>
+        <x>350</x>
+        <y>340</y>
         <width>75</width>
         <height>23</height>
        </rect>
@@ -2686,8 +2686,8 @@
       </property>
       <property name="geometry">
        <rect>
-        <x>390</x>
-        <y>270</y>
+        <x>550</x>
+        <y>280</y>
         <width>113</width>
         <height>20</height>
        </rect>
@@ -2696,8 +2696,8 @@
      <widget class="QLabel" name="label_15">
       <property name="geometry">
        <rect>
-        <x>310</x>
-        <y>280</y>
+        <x>470</x>
+        <y>290</y>
         <width>47</width>
         <height>13</height>
        </rect>
@@ -2710,7 +2710,7 @@
     <widget class="QWidget" name="tab_3">
      <attribute name="icon">
       <iconset>
-       <normaloff>//server/resguardo/Juan Lozano/virtualBox/reporte.png</normaloff>//server/resguardo/Juan Lozano/virtualBox/reporte.png</iconset>
+       <normaloff>imagenes/reporte.png</normaloff>imagenes/reporte.png</iconset>
      </attribute>
      <attribute name="title">
       <string>Reportes</string>
@@ -2739,8 +2739,7 @@
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Garamond'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Click en la factura para ver el detalle de las mismas&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#00007f;&quot;&gt;🔎 Para ver el detalle de una factura, simplemente haz clic sobre ella en la tabla. 👇 &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
     </widget>
@@ -3021,10 +3020,100 @@ p, li { white-space: pre-wrap; }
       </property>
      </widget>
     </widget>
+    <widget class="QWidget" name="tab_5">
+     <attribute name="icon">
+      <iconset>
+       <normaloff>imagenes/manual.png</normaloff>imagenes/manual.png</iconset>
+     </attribute>
+     <attribute name="title">
+      <string>Manual</string>
+     </attribute>
+     <widget class="QTextEdit" name="textEdit">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>20</y>
+        <width>591</width>
+        <height>431</height>
+       </rect>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;title&gt;Manual de Usuario 📖&lt;/title&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Garamond'; font-size:11pt; font-weight:400; font-style:normal;&quot; bgcolor=&quot;#f4f4f4&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:20px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:xx-large; font-weight:600; color:#55aaff;&quot;&gt;Manual de Usuario 📖&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; color:#55aaff;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:16px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:x-large; font-weight:600; color:#55aaff;&quot;&gt;1. Clientes 🧑‍💼&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; color:#55aaff;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:14px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:large; font-weight:600; color:#55aaff;&quot;&gt;Agregar un nuevo cliente: ➕&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; color:#55aaff;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-family:'sans-serif'; color:#55aaff;&quot; style=&quot; margin-top:12px; margin-bottom:10px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Completa los campos: Nombre, Domicilio, Tipo Doc., Nro. Doc., Localidad. &lt;/li&gt;
+&lt;li style=&quot; font-family:'sans-serif'; color:#55aaff;&quot; style=&quot; margin-top:0px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Haz clic en el botón &amp;quot;Agregar Cliente&amp;quot;. &lt;/li&gt;&lt;/ul&gt;
+&lt;p style=&quot; margin-top:14px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:large; font-weight:600; color:#55aaff;&quot;&gt;Editar un cliente: ✏️&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; color:#55aaff;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-family:'sans-serif'; color:#55aaff;&quot; style=&quot; margin-top:12px; margin-bottom:10px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Selecciona un cliente de la tabla. &lt;/li&gt;
+&lt;li style=&quot; font-family:'sans-serif'; color:#55aaff;&quot; style=&quot; margin-top:0px; margin-bottom:10px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Modifica los campos según sea necesario. &lt;/li&gt;
+&lt;li style=&quot; font-family:'sans-serif'; color:#55aaff;&quot; style=&quot; margin-top:0px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Haz clic en el botón &amp;quot;Editar Cliente&amp;quot;. &lt;/li&gt;&lt;/ul&gt;
+&lt;p style=&quot; margin-top:14px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:large; font-weight:600; color:#55aaff;&quot;&gt;Eliminar un cliente: ❌&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; color:#55aaff;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-family:'sans-serif'; color:#55aaff;&quot; style=&quot; margin-top:12px; margin-bottom:10px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Selecciona un cliente de la tabla. &lt;/li&gt;
+&lt;li style=&quot; font-family:'sans-serif'; color:#55aaff;&quot; style=&quot; margin-top:0px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Haz clic en el botón &amp;quot;Borrar Cliente&amp;quot;. &lt;/li&gt;&lt;/ul&gt;
+&lt;p style=&quot; margin-top:16px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:x-large; font-weight:600; color:#55aaff;&quot;&gt;2. Productos 📦&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; color:#55aaff;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:14px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:large; font-weight:600; color:#55aaff;&quot;&gt;Agregar un nuevo producto: ➕&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; color:#55aaff;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-family:'sans-serif'; color:#55aaff;&quot; style=&quot; margin-top:12px; margin-bottom:10px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Completa los campos: Descripción, Stock, Precio Venta. &lt;/li&gt;
+&lt;li style=&quot; font-family:'sans-serif'; color:#55aaff;&quot; style=&quot; margin-top:0px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Haz clic en el botón &amp;quot;Agregar Stock&amp;quot;. &lt;/li&gt;&lt;/ul&gt;
+&lt;p style=&quot; margin-top:14px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:large; font-weight:600; color:#55aaff;&quot;&gt;Editar un producto: ✏️&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; color:#55aaff;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-family:'sans-serif'; color:#55aaff;&quot; style=&quot; margin-top:12px; margin-bottom:10px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Selecciona un producto de la tabla. &lt;/li&gt;
+&lt;li style=&quot; font-family:'sans-serif'; color:#55aaff;&quot; style=&quot; margin-top:0px; margin-bottom:10px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Modifica los campos según sea necesario. &lt;/li&gt;
+&lt;li style=&quot; font-family:'sans-serif'; color:#55aaff;&quot; style=&quot; margin-top:0px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Haz clic en el botón &amp;quot;Editar Stock&amp;quot;. &lt;/li&gt;&lt;/ul&gt;
+&lt;p style=&quot; margin-top:14px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:large; font-weight:600; color:#55aaff;&quot;&gt;Eliminar un producto: ❌&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; color:#55aaff;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-family:'sans-serif'; color:#55aaff;&quot; style=&quot; margin-top:12px; margin-bottom:10px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Selecciona un producto de la tabla. &lt;/li&gt;
+&lt;li style=&quot; font-family:'sans-serif'; color:#55aaff;&quot; style=&quot; margin-top:0px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Haz clic en el botón &amp;quot;Eliminar Stock&amp;quot;. &lt;/li&gt;&lt;/ul&gt;
+&lt;p style=&quot; margin-top:16px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:x-large; font-weight:600; color:#55aaff;&quot;&gt;3. Facturación 🧾&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; color:#55aaff;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-family:'sans-serif'; color:#55aaff;&quot; style=&quot; margin-top:12px; margin-bottom:10px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Selecciona un cliente del combobox &amp;quot;Cliente&amp;quot;. &lt;/li&gt;
+&lt;li style=&quot; font-family:'sans-serif'; color:#55aaff;&quot; style=&quot; margin-top:0px; margin-bottom:10px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Selecciona un artículo del combobox &amp;quot;Artículo&amp;quot;. &lt;/li&gt;
+&lt;li style=&quot; font-family:'sans-serif'; color:#55aaff;&quot; style=&quot; margin-top:0px; margin-bottom:10px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Ingresa la cantidad en el campo &amp;quot;Cantidad&amp;quot;. &lt;/li&gt;
+&lt;li style=&quot; font-family:'sans-serif'; color:#55aaff;&quot; style=&quot; margin-top:0px; margin-bottom:10px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Haz clic en el botón &amp;quot;Agregar Item&amp;quot;. &lt;/li&gt;
+&lt;li style=&quot; font-family:'sans-serif'; color:#55aaff;&quot; style=&quot; margin-top:0px; margin-bottom:10px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Repite los pasos anteriores para agregar más artículos. &lt;/li&gt;
+&lt;li style=&quot; font-family:'sans-serif'; color:#55aaff;&quot; style=&quot; margin-top:0px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Haz clic en el botón &amp;quot;Facturar&amp;quot; para generar la factura. 🎉 &lt;/li&gt;&lt;/ul&gt;
+&lt;p style=&quot; margin-top:16px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:x-large; font-weight:600; color:#55aaff;&quot;&gt;4. Reportes 📊&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; color:#55aaff;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; color:#55aaff;&quot;&gt;La pestaña &amp;quot;Reportes&amp;quot; muestra una tabla con todas las facturas generadas. Puedes ver el detalle de una factura seleccionándola en la tabla. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:16px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:x-large; font-weight:600; color:#55aaff;&quot;&gt;5. Localidades 🏙️&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; color:#55aaff;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:14px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:large; font-weight:600; color:#55aaff;&quot;&gt;Agregar una nueva localidad: ➕&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; color:#55aaff;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-family:'sans-serif'; color:#55aaff;&quot; style=&quot; margin-top:12px; margin-bottom:10px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Completa los campos: Nombre, Provincia. &lt;/li&gt;
+&lt;li style=&quot; font-family:'sans-serif'; color:#55aaff;&quot; style=&quot; margin-top:0px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Haz clic en el botón &amp;quot;Agregar Loc.&amp;quot;. &lt;/li&gt;&lt;/ul&gt;
+&lt;p style=&quot; margin-top:14px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:large; font-weight:600; color:#55aaff;&quot;&gt;Editar una localidad: ✏️&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; color:#55aaff;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-family:'sans-serif'; color:#55aaff;&quot; style=&quot; margin-top:12px; margin-bottom:10px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Selecciona una localidad de la tabla. &lt;/li&gt;
+&lt;li style=&quot; font-family:'sans-serif'; color:#55aaff;&quot; style=&quot; margin-top:0px; margin-bottom:10px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Modifica los campos según sea necesario. &lt;/li&gt;
+&lt;li style=&quot; font-family:'sans-serif'; color:#55aaff;&quot; style=&quot; margin-top:0px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Haz clic en el botón &amp;quot;Editar Loc.&amp;quot;. &lt;/li&gt;&lt;/ul&gt;
+&lt;p style=&quot; margin-top:14px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:large; font-weight:600; color:#55aaff;&quot;&gt;Eliminar una localidad: ❌&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; color:#55aaff;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-family:'sans-serif'; color:#55aaff;&quot; style=&quot; margin-top:12px; margin-bottom:10px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Selecciona una localidad de la tabla. &lt;/li&gt;
+&lt;li style=&quot; font-family:'sans-serif'; color:#55aaff;&quot; style=&quot; margin-top:0px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Haz clic en el botón &amp;quot;Borrar Localidad&amp;quot;. &lt;/li&gt;&lt;/ul&gt;
+&lt;p style=&quot; margin-top:16px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:x-large; font-weight:600; color:#55aaff;&quot;&gt;6. Provincias 🗺️&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; color:#55aaff;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:14px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:large; font-weight:600; color:#55aaff;&quot;&gt;Agregar una nueva provincia: ➕&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; color:#55aaff;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-family:'sans-serif'; color:#55aaff;&quot; style=&quot; margin-top:12px; margin-bottom:10px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Completa el campo: Nombre. &lt;/li&gt;
+&lt;li style=&quot; font-family:'sans-serif'; color:#55aaff;&quot; style=&quot; margin-top:0px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Haz clic en el botón &amp;quot;Agregar Prov.&amp;quot;. &lt;/li&gt;&lt;/ul&gt;
+&lt;p style=&quot; margin-top:14px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:large; font-weight:600; color:#55aaff;&quot;&gt;Editar una provincia: ✏️&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; color:#55aaff;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-family:'sans-serif'; color:#55aaff;&quot; style=&quot; margin-top:12px; margin-bottom:10px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Selecciona una provincia de la tabla. &lt;/li&gt;
+&lt;li style=&quot; font-family:'sans-serif'; color:#55aaff;&quot; style=&quot; margin-top:0px; margin-bottom:10px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Modifica el campo según sea necesario. &lt;/li&gt;
+&lt;li style=&quot; font-family:'sans-serif'; color:#55aaff;&quot; style=&quot; margin-top:0px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Haz clic en el botón &amp;quot;Editar Prov.&amp;quot;. &lt;/li&gt;&lt;/ul&gt;
+&lt;p style=&quot; margin-top:14px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:large; font-weight:600; color:#55aaff;&quot;&gt;Eliminar una provincia: ❌&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; color:#55aaff;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-family:'sans-serif'; color:#55aaff;&quot; style=&quot; margin-top:12px; margin-bottom:10px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Selecciona una provincia de la tabla. &lt;/li&gt;
+&lt;li style=&quot; font-family:'sans-serif'; color:#55aaff;&quot; style=&quot; margin-top:0px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Haz clic en el botón &amp;quot;Borrar Prov.&amp;quot;. &lt;/li&gt;&lt;/ul&gt;
+&lt;p style=&quot; margin-top:16px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:x-large; font-weight:600; color:#55aaff;&quot;&gt;7. Documentos 📄&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; color:#55aaff;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:14px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:large; font-weight:600; color:#55aaff;&quot;&gt;Agregar un nuevo tipo de documento: ➕&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; color:#55aaff;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-family:'sans-serif'; color:#55aaff;&quot; style=&quot; margin-top:12px; margin-bottom:10px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Completa el campo: Nombre. &lt;/li&gt;
+&lt;li style=&quot; font-family:'sans-serif'; color:#55aaff;&quot; style=&quot; margin-top:0px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Haz clic en el botón &amp;quot;Agregar Doc.&amp;quot;. &lt;/li&gt;&lt;/ul&gt;
+&lt;p style=&quot; margin-top:14px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:large; font-weight:600; color:#55aaff;&quot;&gt;Editar un tipo de documento: ✏️&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; color:#55aaff;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-family:'sans-serif'; color:#55aaff;&quot; style=&quot; margin-top:12px; margin-bottom:10px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Selecciona un tipo de documento de la tabla. &lt;/li&gt;
+&lt;li style=&quot; font-family:'sans-serif'; color:#55aaff;&quot; style=&quot; margin-top:0px; margin-bottom:10px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Modifica el campo según sea necesario. &lt;/li&gt;
+&lt;li style=&quot; font-family:'sans-serif'; color:#55aaff;&quot; style=&quot; margin-top:0px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Haz clic en el botón &amp;quot;Editar Doc.&amp;quot;. &lt;/li&gt;&lt;/ul&gt;
+&lt;p style=&quot; margin-top:14px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:large; font-weight:600; color:#55aaff;&quot;&gt;Eliminar un tipo de documento: ❌&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; color:#55aaff;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-family:'sans-serif'; color:#55aaff;&quot; style=&quot; margin-top:12px; margin-bottom:10px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Selecciona un tipo de documento de la tabla. &lt;/li&gt;
+&lt;li style=&quot; font-family:'sans-serif'; color:#55aaff;&quot; style=&quot; margin-top:0px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Haz clic en el botón &amp;quot;Borrar Doc.&amp;quot;. &lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </widget>
     <widget class="QWidget" name="tab_4">
      <attribute name="icon">
       <iconset>
-       <normaloff>../python/acerca-de.png</normaloff>../python/acerca-de.png</iconset>
+       <normaloff>imagenes/acerca-de.png</normaloff>imagenes/acerca-de.png</iconset>
      </attribute>
      <attribute name="title">
       <string>Info</string>
@@ -3032,23 +3121,34 @@ p, li { white-space: pre-wrap; }
      <widget class="QTextBrowser" name="textBrowser">
       <property name="geometry">
        <rect>
-        <x>100</x>
-        <y>70</y>
-        <width>431</width>
-        <height>261</height>
+        <x>90</x>
+        <y>10</y>
+        <width>591</width>
+        <height>461</height>
        </rect>
       </property>
       <property name="html">
        <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;title&gt;Sistema de Punto de Ventas - Simple y Efectivo 🚀&lt;/title&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Garamond'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Sistema de Punto de Ventas - Versión 1.0 &lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Desarrollado por: Mí&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Fecha de creación: Diciembre 2024 &lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Tecnologías utilizadas: Python, PyQt5, SQLite &lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Este programa fue desarrollado como proyecto del curso de la municipalidad de Tres de Febrero. Su objetivo es facilitar la gestión de ventas e inventario en pequeños comercios.&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Contacto: juanjavierlozano@gmail.com&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Garamond'; font-size:11pt; font-weight:400; font-style:normal;&quot; bgcolor=&quot;#f8f9fa&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:20px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:xx-large; font-weight:600; color:#55aaff;&quot;&gt;Sistema de Punto de Ventas - Simple 🚀&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; color:#55aaff;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px; line-height:160%; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; color:#55aaff;&quot;&gt;Sistema de Punto de Ventas &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px; line-height:160%;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; color:#55aaff;&quot;&gt;Este sistema, desarrollado con muchas tazas de cafe ☕ es parte de un proyecto integrador de la munipalidad de 3 de Febrero. 💪 &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px; line-height:160%;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-weight:600; color:#55aaff;&quot;&gt;Características:&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; color:#55aaff;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-family:'sans-serif'; color:#55aaff;&quot; style=&quot; margin-top:12px; margin-bottom:0px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;✅ Gestión de clientes 🧑‍💼 &lt;/li&gt;
+&lt;li style=&quot; font-family:'sans-serif'; color:#55aaff;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;✅ Control de inventario 📦 &lt;/li&gt;
+&lt;li style=&quot; font-family:'sans-serif'; color:#55aaff;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;✅ Generación de facturas 🧾 &lt;/li&gt;
+&lt;li style=&quot; font-family:'sans-serif'; color:#55aaff;&quot; style=&quot; margin-top:0px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;✅ Reportes de ventas 📊 &lt;/li&gt;&lt;/ul&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px; line-height:160%;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-weight:600; color:#55aaff;&quot;&gt;Detalles técnicos:&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; color:#55aaff;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-family:'sans-serif'; color:#55aaff;&quot; style=&quot; margin-top:12px; margin-bottom:0px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Versión: 1.0 (recién salido del horno! 🔥) &lt;/li&gt;
+&lt;li style=&quot; font-family:'sans-serif'; color:#55aaff;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Desarrollador: Yo mismo 🙋‍♂️ &lt;/li&gt;
+&lt;li style=&quot; font-family:'sans-serif'; color:#55aaff;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Fecha de creación: Diciembre 2024 📅 &lt;/li&gt;
+&lt;li style=&quot; font-family:'sans-serif'; color:#55aaff;&quot; style=&quot; margin-top:0px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Tecnologías: Python, PyQt5, SQLite 💻 &lt;/li&gt;&lt;/ul&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px; line-height:160%;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; color:#55aaff;&quot;&gt;Agradezco a la municipalidad de Tres de Febrero por la oportunidad de desarrollar este proyecto como parte de su curso. 🙏 &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px; line-height:160%;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; color:#55aaff;&quot;&gt;Si encuentras algún error o tienes alguna sugerencia, no dudes en contactarme: &lt;/span&gt;&lt;a href=&quot;mailto:juanjavierlozano@gmail.com&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; text-decoration: underline; color:#55aaff;&quot;&gt;juanjavierlozano@gmail.com&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'sans-serif'; color:#55aaff;&quot;&gt; 📧 &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px; line-height:160%;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; color:#55aaff;&quot;&gt;¡Espero que este sistema te sea de gran utilidad! 😄 &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px; line-height:160%;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; color:#55aaff;&quot;&gt;(P.D.: Se aceptan donaciones en forma de café y pizza. 🍕😋) &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
     </widget>
@@ -3059,8 +3159,8 @@ p, li { white-space: pre-wrap; }
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
-     <height>21</height>
+     <width>1026</width>
+     <height>18</height>
     </rect>
    </property>
   </widget>

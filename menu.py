@@ -297,7 +297,8 @@ class MainWindow(QMainWindow):
             self.consultitas.modificar_localidad(codigo, nombre, id_provincia)
             self.cargar_tabla_localidades()
         except Exception as e:
-            QMessageBox.critical(self, "Error", f"Hubo un problema al modificar los datos: {e}")                
+            QMessageBox.critical(self, "Error", f"Hubo un problema al modificar los datos: {e}")            
+    
     def borrar_datos_localidad(self):
         """Modifica los datos de cliente en la base de datos."""
         codigo = self.ui.txtCodLoc.text()
@@ -417,7 +418,8 @@ class MainWindow(QMainWindow):
         if selected.indexes():
             index = selected.indexes()[0]
             fila = index.row()
-            self.mostrar_datos_localidad(fila)    
+            self.mostrar_datos_localidad(fila)
+    
     def procesar_seleccion_provincia(self, selected, deselected):
         """Procesa la selección de filas en la tabla de localidad"""
         if selected.indexes():
@@ -658,6 +660,7 @@ class DetalleFacturaDialog(QDialog):
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
+    app.setStyle("Fusion")
     window = MainWindow()
     window.show()
     sys.exit(app.exec_())

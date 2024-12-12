@@ -6,7 +6,7 @@ from PyQt5.QtWidgets import QMessageBox
 class consultas_db:
     """Clase para manejar las consultas a la base de datos."""
 
-    def __init__(self, db_name="datos.db"):
+    def __init__(self, db_name="datos/datos.db"):
         self.db_name = db_name
 
     def _conectar(self):
